@@ -1,0 +1,167 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.font{
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.header_wrap{
+  background-color: #e6005d;
+  background-image: linear-gradient(200deg, #e60026 0%, #e43500 35%,#e43500 65%, #fb7e00 100%);  
+  opacity:0.77;
+  padding: 30px;
+}
+
+
+header {
+  position: relative;
+  align-items: center;
+  padding: 14px 40px;
+  height: 50px;
+}
+
+.logo {
+  height: 60px;
+}
+
+.header_left{
+  position: absolute;
+  left: 10px;
+}
+
+.header_right{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform : translate(-50%,-50%);
+  transform : translate(-50%,-50%);
+}
+
+ul {
+  list-style: none;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.nav_list {
+  display: flex;
+}
+
+.nav_list > li > a {
+  color: rgb(226, 225, 225);
+  font-size: 20px;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+
+
+.main_icon{
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 10px;
+}
+.Mixsut_logo{
+  width: 450px;
+}
+h1{
+  color: azure;
+  opacity: 0.4;
+  font-size: 15px;
+}
+
+
+.main_text{
+  text-align: center;
+  color: azure;
+  margin-top: 40px;
+  margin-bottom: 150px;
+}
+
+.top_text1{
+  font-size: 25px;
+  opacity: 0.8;
+}
+
+.top_text2{
+  font-size: 18px;
+  opacity: 0.6;
+}ω
+
+
+
+.middle_wrap{
+  padding-top: 35px;
+  padding-bottom: 50px;
+  background-color: rgb(235, 235, 235);
+}
+
+.service_title{
+  text-align: center;
+  color:#e43500;
+  opacity: 0.9;
+
+}
+
+.service_discription{
+  display: ;
+  text-align: center;
+  color:#e43500;
+  opacity: 0.6;
+  font-size: 14px;
+
+}
+
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.servise{
+  height: 300px;
+  width: auto;
+  text-align: center;
+  
+}
+.BtoBtoC_text{
+  font-size: 18px;
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 10px;
+  color: rgb(11, 12, 12);
+  background-image: linear-gradient(240deg, #e60000 0%, #e43500 70%, #f3a85e 100%); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 0.7;
+}
+
+.service_lineup_text{
+  background-image: linear-gradient(240deg, #e60000 0%, #e43500 70%, #f3a85e 100%); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 0.8;
+  font-size: 24px;
+  font-weight: 550;
+}
+
+
+.image_size{
+  height: 230px;
+}
+
+
+
+
+footer{
+ background-color: rgb(216, 216, 216); 
+ height: auto;
+ color:rgb(247, 247, 247);
+ text-align: center;
+ padding: 10px;
+}
+
